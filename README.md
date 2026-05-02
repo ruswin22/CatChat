@@ -8,8 +8,8 @@ Pre-requsites: Golang (go1.25.3)
 go mod tidy
 go build -o catchat-server.exe ./server
 go build -o catchat-client.exe ./client
-./catchat-server   # on your machine
-./catchat-client   # on any LAN machine
+./catchat-server.exe   # on your machine
+./catchat-client.exe   # on any LAN machine
 ```
 
 ### For Linux
