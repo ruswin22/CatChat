@@ -1,0 +1,53 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Dependency directories
+vendor/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.env.local
+
+# OS-specific
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Logs
+*.log
+debug.log
+
+# Build artifacts
+dist/
+build/
+*.o
+*.a
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+
+# Build output
+/catchat-server*
+/catchat-client*
